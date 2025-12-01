@@ -1,0 +1,28 @@
+header{
+    height:90px;
+    width: auto;
+    background-color: #26333D;
+    padding: 0 40px;
+    /* box-sizing: border-box; */
+    display: flex;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+.BarraLateral{
+    display: flex;
+    height: 950px;
+    width: 100px;
+    align-items: first baseline;
+    position: relative;
+    background-color: #26333D;
+    border-radius: 5px;
+}

@@ -507,21 +507,21 @@ button {
 
 .caroussel {
   display: flex;
-  gap: 20px;                /* espaço entre os cards */
+  gap: 20px;              
   overflow-x: auto;
   scroll-behavior: smooth;
   padding: 12px 8px;
   width: 100%;
-  max-width: 1200px;        /* ajuste conforme o layout */
+  max-width: 1200px;        
   box-sizing: border-box;
 }
 
-/* esconde a barra de rolagem no WebKit */
+
 .caroussel::-webkit-scrollbar { display: none; }
 
 .books {
-  flex: 0 0 auto;           /* não encolhe, largura fixa */
-  width: 220px;             /* largura da capa */
+  flex: 0 0 auto;           
+  width: 220px;       
   display: flex;
   align-items: center;
   justify-content: center;
@@ -615,3 +615,39 @@ border-radius: 50%;
     font-style: italic;
     color: #333;
 }
+
+/* 
+ .planta {
+    position: relative;
+    width: 250px;
+    margin: 50px auto;
+ }
+
+
+ .planta img {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+
+} 
+
+
+
+.vaso{
+width: 200px;
+}
+
+
+.folhas {
+    animation: balancar 3.5s ease-in-out infinite;
+    width: 200px;
+ 
+ 
+}
+
+@keyframes balancar {
+    0%   { transform: rotate(0deg); }
+    50%  { transform: rotate(3deg); }
+    100% { transform: rotate(0deg); }
+} */
